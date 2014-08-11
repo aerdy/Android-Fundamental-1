@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+<TableLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:stretchColumns="0">
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#52e236"/>
+<EditText
+android:text="#52e236"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#08dfff"/>
+<EditText
+android:text="#08dfff"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#fcca00"/>
+<EditText
+android:text="#fcca00"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#646464"/>
+<EditText
+android:text="#646464"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#ce0ef7"/>
+<EditText
+android:text="#ce0ef7"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#fd2603"/>
+<EditText
+android:text="#fd2603"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+<TableRow >
+<View
+android:layout_height="80px"
+android:background="#fcff08"/>
+<EditText
+android:text="#fcff08"
+android:paddingLeft="4px"
+android:layout_gravity="center_vertical"/>
+</TableRow>
+</TableLayout>
+</ScrollView>
