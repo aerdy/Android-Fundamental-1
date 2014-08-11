@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+<TextView android:text="(BeanShell Mini)"
+		 android:id="@+id/rm"
+		 android:layout_width="wrap_content"
+		 android:textColor="#aeac00"
+		 android:textSize="20px"
+		 android:textStyle="bold"
+		 android:layout_height="wrap_content"
+		 android:layout_gravity="center"></TextView>  
+		   
+ <ImageView 	android:id="@+id/imageView1" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:src="@drawable/aa" 
+				android:layout_gravity="center"></ImageView>
+ #Tabhost
+<TabHost android:id="@+id/tabhost"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TabWidget android:id="@android:id/tabs"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"/>
+
+<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingTop="62px">
+
+#tab1
+<LinearLayout
+			android:id="@+id/tab1"	 
+	     	android:layout_width="fill_parent"
+    	 	android:layout_height="fill_parent"
+ 	   	    android:orientation="vertical">
+ 
+ <Button
+android:id="@+id/eval"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Go!"
+/>
+<EditText
+android:id="@+id/script"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:singleLine="false"
+android:gravity="top"
+/>
+
+ </LinearLayout>
+#tab2
+<TextView android:id="@+id/tab2"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_gravity="center"
+android:text="What is Bean Shell ?\n\n
+BeanShell is a small, free, embeddable Java source interpreter with object scripting language features, written in Java. BeanShell dynamically executes standard Java syntax and extends it with common scripting conveniences such as loose types, commands, and method closures like those in Perl and JavaScript.\n\n
+http://www.http://beanshell.org/"></TextView>
+
+#tab3
+<TextView 	android:id="@+id/tab3"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="Thank God Bean Shell Applications  is made with such a result
+, Made with passion and full to ceriaan with friends who have helped.
+Made in a small house that most of my early dreams god willing, one by one
+can be achieved with the best - good. amen. \n\n
+
+Copyright@ aerdy@gmail.com"/>
+
+
+</FrameLayout>
+</TabHost> 
+</LinearLayout>
